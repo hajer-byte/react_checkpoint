@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+
+.image{
+    background-image: url("./Login-Mágico.png");
+    min-width: 500px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.App{
+    background-color: rgb(255, 255, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+form{
+    height: 370px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .text_style 
+ {      
+    color: #e40f0f; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 100px; 
+    line-height: 160px; 
+    font-weight: normal; 
+    margin-bottom: 0px;
+    margin-top: 40px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff; }
